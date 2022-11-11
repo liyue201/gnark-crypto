@@ -15,7 +15,7 @@
 package fptower
 
 import (
-	"github.com/consensys/gnark-crypto/ecc/bls24-317/fp"
+	"github.com/liyue201/gnark-crypto/ecc/bls24-317/fp"
 	"math/big"
 )
 

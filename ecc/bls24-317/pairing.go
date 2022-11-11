@@ -17,7 +17,7 @@ package bls24317
 import (
 	"errors"
 
-	"github.com/consensys/gnark-crypto/ecc/bls24-317/internal/fptower"
+	"github.com/liyue201/gnark-crypto/ecc/bls24-317/internal/fptower"
 )
 
 // GT target group of the pairing

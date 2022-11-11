@@ -3,7 +3,7 @@ package config
 import (
 	"math/big"
 
-	"github.com/consensys/gnark-crypto/internal/field"
+	"github.com/liyue201/gnark-crypto/internal/field"
 )
 
 // Curve describes parameters of the curve useful for the template

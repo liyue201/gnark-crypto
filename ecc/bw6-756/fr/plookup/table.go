@@ -22,12 +22,12 @@ import (
 	"math/big"
 	"sort"
 
-	bw6756 "github.com/consensys/gnark-crypto/ecc/bw6-756"
-	"github.com/consensys/gnark-crypto/ecc/bw6-756/fr"
-	"github.com/consensys/gnark-crypto/ecc/bw6-756/fr/fft"
-	"github.com/consensys/gnark-crypto/ecc/bw6-756/fr/kzg"
-	"github.com/consensys/gnark-crypto/ecc/bw6-756/fr/permutation"
-	fiatshamir "github.com/consensys/gnark-crypto/fiat-shamir"
+	bw6756 "github.com/liyue201/gnark-crypto/ecc/bw6-756"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-756/fr"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-756/fr/fft"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-756/fr/kzg"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-756/fr/permutation"
+	fiatshamir "github.com/liyue201/gnark-crypto/fiat-shamir"
 )
 
 var (

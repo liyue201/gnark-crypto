@@ -18,7 +18,7 @@ package polynomial
 
 import (
 	"fmt"
-	"github.com/consensys/gnark-crypto/ecc/bls12-378/fr"
+	"github.com/liyue201/gnark-crypto/ecc/bls12-378/fr"
 	"reflect"
 	"sync"
 	"unsafe"

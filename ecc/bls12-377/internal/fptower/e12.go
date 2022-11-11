@@ -19,9 +19,9 @@ package fptower
 import (
 	"encoding/binary"
 	"errors"
-	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark-crypto/ecc/bls12-377/fp"
-	"github.com/consensys/gnark-crypto/ecc/bls12-377/fr"
+	"github.com/liyue201/gnark-crypto/ecc"
+	"github.com/liyue201/gnark-crypto/ecc/bls12-377/fp"
+	"github.com/liyue201/gnark-crypto/ecc/bls12-377/fr"
 	"math/big"
 	"sync"
 )
@@ -253,7 +253,7 @@ func (z *E12) DecompressKarabina(x *E12) *E12 {
 		t[1].Sub(&t[0], &x.C0.B2).
 			Double(&t[1]).
 			Add(&t[1], &t[0])
-			// t0 = E * g5^2 + t1
+		// t0 = E * g5^2 + t1
 		t[2].Square(&x.C1.B2)
 		t[0].MulByNonResidue(&t[2]).
 			Add(&t[0], &t[1])
@@ -327,7 +327,7 @@ func BatchDecompressKarabina(x []E12) []E12 {
 			t1[i].Sub(&t0[i], &x[i].C0.B2).
 				Double(&t1[i]).
 				Add(&t1[i], &t0[i])
-				// t0 = E * g5^2 + t1
+			// t0 = E * g5^2 + t1
 			t2[i].Square(&x[i].C1.B2)
 			t0[i].MulByNonResidue(&t2[i]).
 				Add(&t0[i], &t1[i])

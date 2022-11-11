@@ -24,11 +24,11 @@ import (
 	"math/big"
 	"math/bits"
 
-	"github.com/consensys/gnark-crypto/accumulator/merkletree"
-	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark-crypto/ecc/bls24-315/fr"
-	"github.com/consensys/gnark-crypto/ecc/bls24-315/fr/fft"
-	fiatshamir "github.com/consensys/gnark-crypto/fiat-shamir"
+	"github.com/liyue201/gnark-crypto/accumulator/merkletree"
+	"github.com/liyue201/gnark-crypto/ecc"
+	"github.com/liyue201/gnark-crypto/ecc/bls24-315/fr"
+	"github.com/liyue201/gnark-crypto/ecc/bls24-315/fr/fft"
+	fiatshamir "github.com/liyue201/gnark-crypto/fiat-shamir"
 )
 
 var (

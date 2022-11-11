@@ -23,9 +23,9 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/consensys/gnark-crypto/ecc/bw6-761/fr"
-	"github.com/consensys/gnark-crypto/ecc/bw6-761/twistededwards"
-	"github.com/consensys/gnark-crypto/signature"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-761/fr"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-761/twistededwards"
+	"github.com/liyue201/gnark-crypto/signature"
 	"golang.org/x/crypto/blake2b"
 )
 

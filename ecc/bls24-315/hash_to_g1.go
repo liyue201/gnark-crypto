@@ -17,8 +17,8 @@
 package bls24315
 
 import (
-	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark-crypto/ecc/bls24-315/fp"
+	"github.com/liyue201/gnark-crypto/ecc"
+	"github.com/liyue201/gnark-crypto/ecc/bls24-315/fp"
 
 	"math/big"
 )

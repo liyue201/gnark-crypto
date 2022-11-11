@@ -17,7 +17,7 @@
 package bw6633
 
 import (
-	"github.com/consensys/gnark-crypto/ecc/bw6-633/fp"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-633/fp"
 
 	"math/big"
 )

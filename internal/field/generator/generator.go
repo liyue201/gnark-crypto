@@ -10,10 +10,10 @@ import (
 	"text/template"
 
 	"github.com/consensys/bavard"
-	"github.com/consensys/gnark-crypto/internal/field"
-	"github.com/consensys/gnark-crypto/internal/field/asm/amd64"
-	"github.com/consensys/gnark-crypto/internal/field/internal/addchain"
-	"github.com/consensys/gnark-crypto/internal/field/internal/templates/element"
+	"github.com/liyue201/gnark-crypto/internal/field"
+	"github.com/liyue201/gnark-crypto/internal/field/asm/amd64"
+	"github.com/liyue201/gnark-crypto/internal/field/internal/addchain"
+	"github.com/liyue201/gnark-crypto/internal/field/internal/templates/element"
 )
 
 // TODO @gbotrel → pattern for code generation is different than gnark-crypto/internal because a binary like goff can generate

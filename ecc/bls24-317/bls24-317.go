@@ -26,10 +26,10 @@ package bls24317
 import (
 	"math/big"
 
-	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark-crypto/ecc/bls24-317/fp"
-	"github.com/consensys/gnark-crypto/ecc/bls24-317/fr"
-	"github.com/consensys/gnark-crypto/ecc/bls24-317/internal/fptower"
+	"github.com/liyue201/gnark-crypto/ecc"
+	"github.com/liyue201/gnark-crypto/ecc/bls24-317/fp"
+	"github.com/liyue201/gnark-crypto/ecc/bls24-317/fr"
+	"github.com/liyue201/gnark-crypto/ecc/bls24-317/internal/fptower"
 )
 
 // ID bls317 ID

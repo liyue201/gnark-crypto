@@ -24,9 +24,9 @@ package bw6756
 import (
 	"math/big"
 
-	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark-crypto/ecc/bw6-756/fp"
-	"github.com/consensys/gnark-crypto/ecc/bw6-756/fr"
+	"github.com/liyue201/gnark-crypto/ecc"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-756/fp"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-756/fr"
 )
 
 // ID BW6_756 ID

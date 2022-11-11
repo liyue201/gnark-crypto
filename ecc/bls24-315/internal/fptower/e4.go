@@ -17,7 +17,7 @@ package fptower
 import (
 	"math/big"
 
-	"github.com/consensys/gnark-crypto/ecc/bls24-315/fp"
+	"github.com/liyue201/gnark-crypto/ecc/bls24-315/fp"
 )
 
 // E4 is a degree two finite field extension of fp2

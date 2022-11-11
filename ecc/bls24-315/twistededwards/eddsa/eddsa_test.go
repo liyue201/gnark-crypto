@@ -25,8 +25,8 @@ import (
 
 	"fmt"
 
-	"github.com/consensys/gnark-crypto/ecc/bls24-315/fr"
-	"github.com/consensys/gnark-crypto/hash"
+	"github.com/liyue201/gnark-crypto/ecc/bls24-315/fr"
+	"github.com/liyue201/gnark-crypto/hash"
 )
 
 func Example() {

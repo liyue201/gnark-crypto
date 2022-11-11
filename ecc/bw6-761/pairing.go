@@ -17,8 +17,8 @@ package bw6761
 import (
 	"errors"
 
-	"github.com/consensys/gnark-crypto/ecc/bw6-761/fp"
-	"github.com/consensys/gnark-crypto/ecc/bw6-761/internal/fptower"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-761/fp"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-761/internal/fptower"
 )
 
 // GT target group of the pairing
@@ -135,8 +135,8 @@ func FinalExponentiation(z *GT, _z ...*GT) GT {
 		Mul(&gC, &g0).
 		Mul(&gC, &g4)
 
-		// ht, hy = 13, 9
-		// c1 = ht**2+3*hy**2 = 412
+	// ht, hy = 13, 9
+	// c1 = ht**2+3*hy**2 = 412
 	h1.Expc1(&gA)
 	// c2 = ht+hy = 22
 	h2.Expc2(&gB)
@@ -311,7 +311,7 @@ func (p *g1Proj) DoubleStep(evaluations *lineEvaluation) {
 	D.Double(&C).
 		Add(&D, &C)
 
-		// E.Mul(&D, &bCurveCoeff)
+	// E.Mul(&D, &bCurveCoeff)
 	E.Neg(&D)
 
 	F.Double(&E).

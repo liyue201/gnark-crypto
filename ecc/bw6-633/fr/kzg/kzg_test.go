@@ -23,9 +23,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark-crypto/ecc/bw6-633"
-	"github.com/consensys/gnark-crypto/ecc/bw6-633/fr"
+	"github.com/liyue201/gnark-crypto/ecc"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-633"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-633/fr"
 )
 
 // testSRS re-used accross tests of the KZG scheme

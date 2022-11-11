@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"math/bits"
 
-	"github.com/consensys/gnark-crypto/ecc/bw6-633"
-	"github.com/consensys/gnark-crypto/ecc/bw6-633/fr"
-	"github.com/consensys/gnark-crypto/ecc/bw6-633/fr/fft"
-	"github.com/consensys/gnark-crypto/ecc/bw6-633/fr/kzg"
-	fiatshamir "github.com/consensys/gnark-crypto/fiat-shamir"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-633"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-633/fr"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-633/fr/fft"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-633/fr/kzg"
+	fiatshamir "github.com/liyue201/gnark-crypto/fiat-shamir"
 )
 
 var (

@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark-crypto/ecc/bw6-633/fp"
-	"github.com/consensys/gnark-crypto/ecc/bw6-633/fr"
+	"github.com/liyue201/gnark-crypto/ecc"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-633/fp"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-633/fr"
 )
 
 var bigIntPool = sync.Pool{
@@ -253,7 +253,7 @@ func (z *E6) DecompressKarabina(x *E6) *E6 {
 		t[1].Sub(&t[0], &x.B0.A2).
 			Double(&t[1]).
 			Add(&t[1], &t[0])
-			// t0 = E * g5^2 + t1
+		// t0 = E * g5^2 + t1
 		t[2].Square(&x.B1.A2)
 		t[0].MulByNonResidue(&t[2]).
 			Add(&t[0], &t[1])
@@ -327,7 +327,7 @@ func BatchDecompressKarabina(x []E6) []E6 {
 			t1[i].Sub(&t0[i], &x[i].B0.A2).
 				Double(&t1[i]).
 				Add(&t1[i], &t0[i])
-				// t0 = E * g5² + t1
+			// t0 = E * g5² + t1
 			t2[i].Square(&x[i].B1.A2)
 			t0[i].MulByNonResidue(&t2[i]).
 				Add(&t0[i], &t1[i])

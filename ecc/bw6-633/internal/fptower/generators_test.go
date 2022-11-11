@@ -1,8 +1,8 @@
 package fptower
 
 import (
-	"github.com/consensys/gnark-crypto/ecc/bw6-633/fp"
 	"github.com/leanovate/gopter"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-633/fp"
 )
 
 // TODO all gopter.Gen are incorrect, use same model as goff

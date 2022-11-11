@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/consensys/gnark-crypto/ecc/bls12-377/fr"
+	"github.com/liyue201/gnark-crypto/ecc/bls12-377/fr"
 	"github.com/leanovate/gopter"
 	"github.com/leanovate/gopter/prop"
 )

@@ -22,12 +22,12 @@ import (
 	"math/big"
 	"sort"
 
-	bls12377 "github.com/consensys/gnark-crypto/ecc/bls12-377"
-	"github.com/consensys/gnark-crypto/ecc/bls12-377/fr"
-	"github.com/consensys/gnark-crypto/ecc/bls12-377/fr/fft"
-	"github.com/consensys/gnark-crypto/ecc/bls12-377/fr/kzg"
-	"github.com/consensys/gnark-crypto/ecc/bls12-377/fr/permutation"
-	fiatshamir "github.com/consensys/gnark-crypto/fiat-shamir"
+	bls12377 "github.com/liyue201/gnark-crypto/ecc/bls12-377"
+	"github.com/liyue201/gnark-crypto/ecc/bls12-377/fr"
+	"github.com/liyue201/gnark-crypto/ecc/bls12-377/fr/fft"
+	"github.com/liyue201/gnark-crypto/ecc/bls12-377/fr/kzg"
+	"github.com/liyue201/gnark-crypto/ecc/bls12-377/fr/permutation"
+	fiatshamir "github.com/liyue201/gnark-crypto/fiat-shamir"
 )
 
 var (

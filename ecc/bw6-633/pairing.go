@@ -17,8 +17,8 @@ package bw6633
 import (
 	"errors"
 
-	"github.com/consensys/gnark-crypto/ecc/bw6-633/fp"
-	"github.com/consensys/gnark-crypto/ecc/bw6-633/internal/fptower"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-633/fp"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-633/internal/fptower"
 )
 
 // GT target group of the pairing
@@ -334,7 +334,7 @@ func (p *g1Proj) DoubleStep(evaluations *lineEvaluation) {
 	D.Double(&C).
 		Add(&D, &C)
 
-		// E.Mul(&D, &bCurveCoeff)
+	// E.Mul(&D, &bCurveCoeff)
 	E.Double(&D).
 		Double(&E)
 

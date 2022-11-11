@@ -1,8 +1,8 @@
 package fptower
 
 import (
-	"github.com/consensys/gnark-crypto/ecc/bls12-377/fp"
 	"github.com/leanovate/gopter"
+	"github.com/liyue201/gnark-crypto/ecc/bls12-377/fp"
 )
 
 // Fp generates an Fp element

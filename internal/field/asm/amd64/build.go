@@ -23,7 +23,7 @@ import (
 	"github.com/consensys/bavard"
 
 	"github.com/consensys/bavard/amd64"
-	"github.com/consensys/gnark-crypto/internal/field"
+	"github.com/liyue201/gnark-crypto/internal/field"
 )
 
 const SmallModulus = 6

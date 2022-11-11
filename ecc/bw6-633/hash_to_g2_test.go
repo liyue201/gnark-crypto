@@ -17,9 +17,9 @@
 package bw6633
 
 import (
-	"github.com/consensys/gnark-crypto/ecc/bw6-633/fp"
 	"github.com/leanovate/gopter"
 	"github.com/leanovate/gopter/prop"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-633/fp"
 	"math/rand"
 	"testing"
 )

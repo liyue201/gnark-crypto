@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"runtime"
 
-	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark-crypto/ecc/bls12-378/fp"
-	"github.com/consensys/gnark-crypto/ecc/bls12-378/fr"
-	"github.com/consensys/gnark-crypto/internal/parallel"
+	"github.com/liyue201/gnark-crypto/ecc"
+	"github.com/liyue201/gnark-crypto/ecc/bls12-378/fp"
+	"github.com/liyue201/gnark-crypto/ecc/bls12-378/fr"
+	"github.com/liyue201/gnark-crypto/internal/parallel"
 )
 
 // G1Affine point in affine coordinates

@@ -17,7 +17,7 @@
 package kzg
 
 import (
-	"github.com/consensys/gnark-crypto/ecc/bls24-317"
+	"github.com/liyue201/gnark-crypto/ecc/bls24-317"
 	"io"
 )
 

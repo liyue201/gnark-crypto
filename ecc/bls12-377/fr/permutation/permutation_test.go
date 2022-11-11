@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/consensys/gnark-crypto/ecc/bls12-377/fr"
-	"github.com/consensys/gnark-crypto/ecc/bls12-377/fr/kzg"
+	"github.com/liyue201/gnark-crypto/ecc/bls12-377/fr"
+	"github.com/liyue201/gnark-crypto/ecc/bls12-377/fr/kzg"
 )
 
 func TestProof(t *testing.T) {

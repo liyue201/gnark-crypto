@@ -1,8 +1,8 @@
 package fptower
 
 import (
-	"github.com/consensys/gnark-crypto/ecc/bn254/fp"
 	"github.com/leanovate/gopter"
+	"github.com/liyue201/gnark-crypto/ecc/bn254/fp"
 )
 
 // GenFp generates an Fp element

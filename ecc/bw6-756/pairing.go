@@ -17,8 +17,8 @@ package bw6756
 import (
 	"errors"
 
-	"github.com/consensys/gnark-crypto/ecc/bw6-756/fp"
-	"github.com/consensys/gnark-crypto/ecc/bw6-756/internal/fptower"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-756/fp"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-756/internal/fptower"
 )
 
 // GT target group of the pairing
@@ -79,9 +79,9 @@ func FinalExponentiation(z *GT, _z ...*GT) GT {
 	result.Frobenius(&buf).
 		Mul(&result, &buf)
 
-		// Hard part (up to permutation)
-		// El Housni and Guillevic
-		// https://eprint.iacr.org/2020/351.pdf
+	// Hard part (up to permutation)
+	// El Housni and Guillevic
+	// https://eprint.iacr.org/2020/351.pdf
 	var m1, _m1, m2, _m2, m3, f0, f0_36, g0, g1, _g1, g2, g3, _g3, g4, _g4, g5, _g5, g6, gA, gB, g034, _g1g2, gC, h1, h2, h2g2C, h4 GT
 	m1.Expt(&result)
 	_m1.Conjugate(&m1)
@@ -134,8 +134,8 @@ func FinalExponentiation(z *GT, _z ...*GT) GT {
 		Mul(&gC, &g2).
 		Mul(&gC, &g0).
 		Mul(&gC, &g4)
-		// ht, hy = -1, -1
-		// c1 = ht**2+3*hy**2 = 4
+	// ht, hy = -1, -1
+	// c1 = ht**2+3*hy**2 = 4
 	h1.CyclotomicSquare(&gA).
 		CyclotomicSquare(&h1)
 	// c2 = ht+hy = -2

@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 
 	"github.com/consensys/bavard"
-	"github.com/consensys/gnark-crypto/internal/generator/config"
+	"github.com/liyue201/gnark-crypto/internal/generator/config"
 )
 
 func Generate(conf config.TwistedEdwardsCurve, baseDir string, bgen *bavard.BatchGenerator) error {

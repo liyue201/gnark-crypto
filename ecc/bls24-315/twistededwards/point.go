@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"math/bits"
 
-	"github.com/consensys/gnark-crypto/ecc/bls24-315/fr"
+	"github.com/liyue201/gnark-crypto/ecc/bls24-315/fr"
 )
 
 // PointAffine point on a twisted Edwards curve

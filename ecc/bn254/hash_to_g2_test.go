@@ -17,10 +17,10 @@
 package bn254
 
 import (
-	"github.com/consensys/gnark-crypto/ecc/bn254/fp"
-	"github.com/consensys/gnark-crypto/ecc/bn254/internal/fptower"
 	"github.com/leanovate/gopter"
 	"github.com/leanovate/gopter/prop"
+	"github.com/liyue201/gnark-crypto/ecc/bn254/fp"
+	"github.com/liyue201/gnark-crypto/ecc/bn254/internal/fptower"
 	"math/rand"
 	"strings"
 	"testing"

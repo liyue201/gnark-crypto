@@ -17,7 +17,7 @@ package bn254
 import (
 	"errors"
 
-	"github.com/consensys/gnark-crypto/ecc/bn254/internal/fptower"
+	"github.com/liyue201/gnark-crypto/ecc/bn254/internal/fptower"
 )
 
 // GT target group of the pairing
@@ -78,8 +78,8 @@ func FinalExponentiation(z *GT, _z ...*GT) GT {
 	result.FrobeniusSquare(&t[0]).
 		Mul(&result, &t[0])
 
-		// Hard part (up to permutation)
-		// 2x₀(6x₀²+3x₀+1)(p⁴-p²+1)/r
+	// Hard part (up to permutation)
+	// 2x₀(6x₀²+3x₀+1)(p⁴-p²+1)/r
 	// Duquesne and Ghammam
 	// https://eprint.iacr.org/2015/192.pdf
 	// Fuentes et al. variant (alg. 10)

@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/consensys/gnark-crypto/ecc/bn254/fr"
 	"github.com/leanovate/gopter"
 	"github.com/leanovate/gopter/gen"
 	"github.com/leanovate/gopter/prop"
+	"github.com/liyue201/gnark-crypto/ecc/bn254/fr"
 )
 
 // logFiber returns u, v such that {g^u, g^v} = f⁻¹((g²)^{_p})

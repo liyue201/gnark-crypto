@@ -19,7 +19,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/consensys/bavard"
-	"github.com/consensys/gnark-crypto/internal/field/internal/addchain"
+	"github.com/liyue201/gnark-crypto/internal/field/internal/addchain"
 	"math"
 	"math/big"
 	"math/bits"

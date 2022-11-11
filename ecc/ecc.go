@@ -30,7 +30,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/consensys/gnark-crypto/internal/generator/config"
+	"github.com/liyue201/gnark-crypto/internal/generator/config"
 )
 
 // ID represent a unique ID for a curve

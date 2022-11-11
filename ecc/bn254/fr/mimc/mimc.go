@@ -19,7 +19,7 @@ package mimc
 import (
 	"hash"
 
-	"github.com/consensys/gnark-crypto/ecc/bn254/fr"
+	"github.com/liyue201/gnark-crypto/ecc/bn254/fr"
 	"golang.org/x/crypto/sha3"
 	"math/big"
 	"sync"

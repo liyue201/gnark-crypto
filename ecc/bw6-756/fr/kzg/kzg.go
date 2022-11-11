@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark-crypto/ecc/bw6-756"
-	"github.com/consensys/gnark-crypto/ecc/bw6-756/fr"
-	"github.com/consensys/gnark-crypto/fiat-shamir"
+	"github.com/liyue201/gnark-crypto/ecc"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-756"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-756/fr"
+	"github.com/liyue201/gnark-crypto/fiat-shamir"
 )
 
 var (

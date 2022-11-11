@@ -21,7 +21,7 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr"
+	"github.com/liyue201/gnark-crypto/ecc/bls12-381/fr"
 )
 
 // PointAffine point on a twisted Edwards curve

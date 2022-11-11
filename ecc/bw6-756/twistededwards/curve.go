@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/consensys/gnark-crypto/ecc/bw6-756/fr"
+	"github.com/liyue201/gnark-crypto/ecc/bw6-756/fr"
 )
 
 // CurveParams curve parameters: ax^2 + y^2 = 1 + d*x^2*y^2

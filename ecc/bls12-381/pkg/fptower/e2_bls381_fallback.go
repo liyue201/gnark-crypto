@@ -17,7 +17,7 @@
 
 package fptower
 
-import "github.com/consensys/gnark-crypto/ecc/bls12-381/fp"
+import "github.com/liyue201/gnark-crypto/ecc/bls12-381/fp"
 
 // MulByNonResidue multiplies a E2 by (1,1)
 func (z *E2) MulByNonResidue(x *E2) *E2 {
